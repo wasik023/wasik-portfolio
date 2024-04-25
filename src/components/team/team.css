@@ -1,0 +1,104 @@
+#work {
+
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    order: 0;
+}
+.workstitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.worksdesc {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+.workimmg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+
+}
+.sam {
+    display:flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 5rem;
+    background: rgb(50, 50, 50);
+}
+
+.sam:hover {
+    border: solid rgb(159, 159, 25);
+}
+
+.samimg {
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30rem;
+    height: 12rem;
+    width: 12rem;
+    margin-right: 2rem;
+}
+
+.sam-content {
+    flex: 1; /* Allow the content to grow to fill available space */
+}
+
+.sam-content :p {
+    text-align: left; /* Align text to the left */
+    color: rgb(115, 18, 18); /* Adjust text color as needed */
+    letter-spacing: 100px;
+}
+@media  screen and (max-width:490px) { 
+    #work {
+        margin: 0 auto;
+        min-height: calc(100vh - 4rem);
+        width: 90vw;
+        max-width: 150rem;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        justify-content: center;
+        padding: 0 1rem;
+    }
+    
+    .samimg {
+        object-fit: cover;
+        display: flex;
+        border-radius: 30rem;
+        height: 5rem;
+        width: 5rem;
+        margin-right: 2rem;
+        align-items: center;
+    }
+    .worksdesc {
+        font-weight: 300;
+        font-size: 0.10rem;
+    }
+    .workstitle {
+        margin: 1rem 0;
+        font-size: 2rem;
+    }
+    .sam-content :p {
+        text-align: left; /* Align text to the left */
+        color: rgb(115, 18, 18); /* Adjust text color as needed */
+        letter-spacing: 10px;
+    }
+    .teamdesc {
+        align-items: end;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+

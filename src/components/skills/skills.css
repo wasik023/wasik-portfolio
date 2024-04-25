@@ -1,0 +1,73 @@
+#skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.Skilltitle {
+    font-size: 3rem;
+    font-weight: 600;
+padding-top: 3rem;
+margin-bottom: 1.5rem;
+}
+.skillDesc {
+    font-weight: 150;
+    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+max-width: 50rem;
+padding: 0 2rem;
+}
+.skillbar {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+
+}
+.skillbar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 2rem 2rem;
+    background: rgb(50, 50, 50);
+
+}
+.skillbar:hover{
+border: solid rgb(159, 159, 25);
+}
+.skillbarimg {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+margin-right: 2rem;
+}
+.skillbartext >p {
+    font-size: 0.9rem;
+    font-weight: 100;
+
+}
+@media  screen and (max-width:720) {
+    .skillbartext {
+        font-size: 2vw;
+    }
+    
+}
+@media  screen and (max-width:480px) {
+    .skillbartext {
+        font-size: 3vw;
+    }
+    .skillbarimg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillbartext>h2 {
+font-size: 5vw;
+
+    }
+    
+}
